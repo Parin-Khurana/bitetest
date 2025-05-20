@@ -974,24 +974,33 @@ h2 {
 }
 
 .right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  text-align: left;
+  gap: 1rem;
+  padding-left: 1rem; 
+}
 
-  .link-group {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
-  }
-  
-  @media (max-width: 768px) {
-    .group-bottom {
-      margin-top: 1.5rem;
-    }
-  }
+.link-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  gap: 0.5rem;
+  width: 100%; 
+}
+
+.link-group span {
+  display: block;
+  width: 100%; 
+}
+
+.link-group a {
+  display: inline-block;
+  width: 100%;
+}
+
+
   
   
 .byte {

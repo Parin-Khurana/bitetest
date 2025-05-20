@@ -1,0 +1,10 @@
+body{
+    cursor: url(../icons/default.svg),auto;
+}
+*{
+    cursor: url(../icons/default.svg),auto;
+}
+
+.highlights, .navByte, .menuNav, .svg, .scroll, .left>div, .right>span, a{
+    cursor: url(../icons/pointer.svg), auto !important;
+}

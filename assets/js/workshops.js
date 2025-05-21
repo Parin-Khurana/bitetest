@@ -1,4 +1,4 @@
-mailthere = false;
+mailthere = true;
 
 
 // Function to detect mobile devices
